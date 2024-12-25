@@ -347,7 +347,7 @@
                     //         String a = "* ";
                     //         System.out.println("n is:");
                     //         int n = sc.nextInt();
-                    //         int num = 0;
+                    //         // int num = 0;
                     //         for (int i=1; i<=n;i++){
                     //             for (int j=n-i;j>=1;j--){
                     //                 System.out.print(" ");
@@ -401,10 +401,10 @@
                     //             }
                     //             System.out.println();
                     //         }
-                    //         for (int i=n; i<=2*n; i++){
-                    //             for (int j=1;j<=i-n+1;j++){
+                    //         for (int i=1; i<=n; i++){
+                    //             for (int j=1;j<=i;j++){
                     //                 System.out.print(" ");}
-                    //             for (int j=n-i+1; j>=1;j--){
+                    //             for (int j=2*n-2*i+1; j>=1;j--){
                     //                 System.out.print(a);
                     //             }
                     //             System.out.println();
@@ -413,3 +413,154 @@
                     // }
 
 
+                //    import java.util.*;
+                //     public class Main {
+                //         public static void main(String[] args) {
+                //             Scanner sc = new Scanner (System.in);
+                //             String a = "*";
+                //             System.out.println("n is:");
+                //             int n = sc.nextInt();
+                //             int num = 0;
+                //             for (int i=1; i<=n;i++){
+                //                 for (int j=1;j<=i-1;j++){
+                //                     System.out.print(" ");}
+                //                 for(int j=n-i+1;j>=1;j--){
+                //                     System.out.print(a);
+                //                 }
+                //                 System.out.println();
+                //             }
+                //         }
+                //     }
+
+
+                // import java.util.*;
+                // public class Main {
+                //     public static void main(String[] args) {
+                //         Scanner sc = new Scanner (System.in);
+                //         String a = "*";
+                //         System.out.println("n is:");
+                //         int n = sc.nextInt();
+                //         int num = 0;
+                //         for (int i=1; i<=n;i++){
+                //             for(int j=1;j<=i-1;j++){
+                //                 System.out.print(" ");}
+                //             for(int j=n-i+1;j>=1;j--){
+                //                 System.out.print(a+" ");}
+                //             System.out.println();
+                //         }
+                //     }
+                // }
+            
+                // import java.util.*;
+                // public class Main {
+                //     public static void main(String[] args) {
+                //         Scanner sc = new Scanner (System.in);
+                //         String a = "*";
+                //         System.out.println("n is:");
+                //         int n = sc.nextInt();
+                //         int num = 0;
+                //         for (int i=1; i<=n;i++){
+                //             for(int j=1;j<=i-1;j++){
+                //                 System.out.print(" ");}
+                //             // for(int j=n-i+1;j>=1;j--){
+                //                 // System.out.print(a+" ");}
+                //                 for (int j=1;j<=2*n-1;j++){
+                //                     if((i+j)%2==0){
+                //                         System.out.print(a);
+                //                     }
+                //                     else;
+                //                     System.out.print(" ");
+                //                 }
+                //             System.out.println();
+                //         }
+                //     }
+                // }
+
+
+                // import java.util.*;
+                // public class Main {
+                //     public static void main(String[] args) {
+                //         Scanner sc = new Scanner (System.in);
+                //         String a = "*";
+                //         System.out.println("n is:");
+                //         int n = sc.nextInt();
+                //         int num = 0;
+                //         for (int i=1; i<=n;i++){
+                //             for(int j=1;j<=i-1;j++){
+                //                 System.out.print(" ");}
+                //             for(int j=n-i+1;j>=1;j--){
+                //                 System.out.print(a+" ");}
+                //             System.out.println();
+                //         }
+                //     }
+                // }
+
+
+                // import java.util.*;
+                // public class Main {
+                //     public static int calculateSum(int a, int b){
+                //         int sum = a+b;
+                //         // System.out.println(sum);
+                //         return(sum);
+                //     }
+                //     public static void main(String[] args) {
+                //         Scanner sc= new Scanner(System.in);
+                //         int a = sc.nextInt();
+                //         int b = sc.nextInt();
+                //         // String name = sc.nextLine();
+                //         // printMyName(name);
+                //         int sum=calculateSum(a, b);
+                //         System.out.println(sum);
+                //     }
+                // }
+                
+
+                // import java.util.*;
+                // public class Main {
+                //     public static int calculateProduct(int a, int b){
+                //         int Product = a*b;
+                //         // System.out.println(sum);
+                //         return(Product);
+                //     }
+                //     public static void main(String[] args) {
+                //         Scanner sc= new Scanner(System.in);
+                //         int a = sc.nextInt();
+                //         int b = sc.nextInt();
+                //         // String name = sc.nextLine();
+                //         // printMyName(name);
+                //         int Product=calculateProduct(a, b);
+                //         System.out.println(Product);
+                //     }
+                // }
+
+
+                // import java.util.*;
+                // public class Main {
+                //     public static int calculateProduct(int n){
+                //         int j=1;
+                //         for(int i=n;i>=1;i--){
+                //         j++=i;
+                //         int k=j++*j;
+                //         }
+                //         return(Product);
+
+
+
+
+                //         import java.util.*;
+                //         public class Main {
+                //             public static void main(String[] args) {
+                // System.out.println("n is:");
+                // Scanner sc= new Scanner(System.in);
+                //   int n = sc.nextInt();
+                //         int j=1;
+                //         for(int i=n;i>=1;i--){
+                //         j++=i;
+                //         int k=j++*j;
+                //         }
+                //         system.out.println(k);
+                //     }
+                // }
+
+
+                
