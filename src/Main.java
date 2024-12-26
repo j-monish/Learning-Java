@@ -563,4 +563,177 @@
                 // }
 
 
-                
+
+                 // import java.util.*;
+                // public class Main {
+                //     public static int calculateProduct(int a, int b){
+                //         int Product = a*b;
+                //         // System.out.println(sum);
+                //         return(Product);
+                //     }
+                //     public static void main(String[] args) {
+                //         Scanner sc= new Scanner(System.in);
+                //         int a = sc.nextInt();
+                //         int b = sc.nextInt();
+                //         // String name = sc.nextLine();
+                //         // printMyName(name);
+                //         int Product=calculateProduct(a, b);
+                //         System.out.println(Product);
+                //     }
+                // }
+
+
+      // Enter 3 numbers from the user & make a function to print their average.
+
+                // import java.util.*;
+                // public class Main {
+                //     public static float average(int a, int b, int c){
+                //         float average = (float)(a+b+c)/3;
+                //         return average;
+                //     }
+                //     public static void main(String[] args){
+                //         Scanner sc = new Scanner(System.in);
+                //         int a = sc.nextInt();
+                //         int b = sc.nextInt();
+                //         int c = sc.nextInt();
+                //         float average=average(a, b, c);
+                //         System.out.println(average);
+                //     } 
+                // }
+
+// Write a function to print the sum of all odd numbers from 1 to n.
+
+                // import java.util.*;
+                // public class Main {
+                //     public static int sum(int n){
+                //         int sum=0;   
+                //         for (int i=1; i<=n; i+=2){
+                //             sum=sum+i;
+                //             // System.err.println(n);
+                //         }
+                //         return sum;
+                //     }
+
+                //     public static void main(String[] args){
+                //         Scanner sc = new Scanner(System.in);
+                //         int n = sc.nextInt();
+                //         int sum= sum(n);
+                //         System.out.println(sum);
+                //     }
+                // }
+
+                // Write a function which takes in 2 numbers and returns the greater of those two.
+            
+            // import java.util.*;
+            //     public class Main {
+            //         public static int greater(int a, int b){
+            //             // if(a>b){ 
+            //             //     int greater = a;}
+                            
+            //             // else;
+            //             //     int greater = b;
+            //             // return greater;
+            //             int greater = 0;
+            //             greater = a > b ? a : b;
+            //             return greater;
+  
+            //         }
+            //         public static void main (String[] args){
+            //             Scanner sc = new Scanner (System.in);
+            //             int a = sc.nextInt();
+            //             int b = sc.nextInt();
+            //             int greater=greater(a, b);
+            //             System.out.println(greater);
+            //         }
+            //     }
+
+
+
+            // Write a function that takes in the radius as input and returns the circumference of a circle.
+
+            //    import java.util.*;
+            //     public class Main {
+            //         public static float circumference(int radius){
+            //             // int radius;
+            //             float circumference = (float) (2*3.14*radius);
+            //             return circumference;
+            //         }
+            //         public static void main(String[] args){
+            //             Scanner sc = new Scanner (System.in);
+            //             int radius = sc.nextInt();
+            //             float circumference=circumference(radius);
+            //             System.out.println(circumference);
+            //         }
+                // }
+
+
+                // Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
+
+                // import java.util.*;
+                //     public class Main {
+                //         public static String eligible(int age){
+                //             // if(age>=18){
+                //             //     System.out.println("Eligible to vote");
+                //             // }
+                //             // else;
+                //             //     System.out.println("Not elligible to vote");    
+                //             String eligible;
+                //             eligible = age>=18?"Eligible":"Ilegible";
+                //             return(eligible);
+                //         }                
+                //         public static void main(String[] args){
+                //             Scanner sc = new Scanner (System.in);
+                //             int age = sc.nextInt();
+                //             String eligible = eligible(age);
+                //             System.out.println(eligible);
+                //         }
+                //     }
+
+
+                // Two numbers are entered by the user, x and n. Write a function to find the value of one number raised to the power of another i.e. xn.
+
+                // import java.util.*;
+                //     public class Main {
+                //         public static int value(int x,int n){
+                //             // int value=Math.pow(x, n);
+                //             // return value;
+                //             int value=x;
+                //             for(int i=1; i<=n; i++){
+                //                 value=value*x;
+                //             }
+                //             return(value);
+                //         }
+                //         public static void main(String[] args){
+                //             Scanner sc = new Scanner(System.in);
+                //             int x = sc.nextInt();
+                //             int n = sc.nextInt();
+                //             int value = value(x, n);
+                //             System.out.println(value);
+                //         }
+                //     }
+
+
+
+                // Write a function that calculates the Greatest Common Divisor of 2 numbers. 
+                import java.util.*;
+                public class Main{
+                    public static int gcd(int a, int b){
+                        int gcd;
+                        // int i=1;
+                         for(int i=2; i<=b; i++){
+                        if(a%i==0 && b%i==0){            
+                            gcd=i;}
+                        else;
+                        gcd=1;
+                    }
+                    return(gcd);}
+                    public static void main(String[] args){
+                        Scanner sc = new Scanner(System.in);
+                        int a = sc.nextInt();
+                        int b = sc.nextInt();
+                        int gcd = gcd(a, b);
+                        System.out.println(gcd);
+
+                    }
+                }
+            
