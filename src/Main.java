@@ -715,25 +715,79 @@
 
 
                 // Write a function that calculates the Greatest Common Divisor of 2 numbers. 
-                import java.util.*;
-                public class Main{
-                    public static int gcd(int a, int b){
-                        int gcd;
-                        // int i=1;
-                         for(int i=2; i<=b; i++){
-                        if(a%i==0 && b%i==0){            
-                            gcd=i;}
-                        else;
-                        gcd=1;
-                    }
-                    return(gcd);}
-                    public static void main(String[] args){
-                        Scanner sc = new Scanner(System.in);
-                        int a = sc.nextInt();
-                        int b = sc.nextInt();
-                        int gcd = gcd(a, b);
-                        System.out.println(gcd);
+                // import java.util.*;
+                // public class Main{
+                //     public static int gcd(int a, int b){
+                //         int min = Math.min(a, b);
+                //         int gcd=1;
+                //         // int i=1;
+                //          for(int i=1; i<=min; i++){
+                //         if(a%i==0 && b%i==0){            
+                //             gcd=i;}
+                //         // else;
+                //         // gcd=1;
+                //     }
+                //     return gcd;}
+                //     public static void main(String[] args){
+                //         Scanner sc = new Scanner(System.in);
+                //         int a = sc.nextInt();
+                //         int b = sc.nextInt();
+                //         int gcd = gcd(a, b);
+                //         System.out.println(gcd);
 
-                    }
-                }
+                //     }
+                // }
             
+
+
+                // import java.util.*;
+
+
+                // public class Main{
+                // public static void main(String args[]) {
+                //     int positive = 0, negative = 0, zeros = 0;
+                //     System.out.println("Press 1 to continue & 0 to stop");
+                //     Scanner sc = new Scanner(System.in);
+                //     int input = sc.nextInt();
+
+
+                //     while(input == 1) {
+                //         System.out.println("Enter your number : ");
+                //         int number = sc.nextInt();
+                //         if(number > 0) {
+                //             positive++;
+                //         } else if(number < 0) {
+                //             negative++;
+                //         } else {
+                //             zeros++;
+                //         }
+
+
+                //         System.out.println("Press 1 to continue & 0 to stop");
+                //         input = sc.nextInt();
+                //     }
+
+
+                //     System.out.println("Positives : "+ positive);
+                //     System.out.println("Negatives : "+ negative);
+                //     System.out.println("Zeros : "+ zeros);
+                // }   
+                // }
+
+
+    //    import java.util.*;
+    //    public class Main{
+    //     public static int factorial(int n){
+    //         int factorial=1;
+    //         for(int i=1; i<=n; i++){
+    //             factorial=factorial*i;
+    //         }
+    //        return(factorial);
+    //         }
+    //     public static void main(String args[]){
+    //         Scanner sc = new Scanner(System.in);
+    //         int n = sc.nextInt();
+    //         int factorial = factorial(n);
+    //         System.out.println(factorial);
+    //     }
+    //    }
