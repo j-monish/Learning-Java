@@ -10,8 +10,8 @@
 //     //   int diff = a-b;
 //     //   System.out.println(diff);
 //       Scanner sc = new Scanner(System.in);
-//       int a = sc.nextInt();
-//        int b = sc.nextInt();
+//       int a = sc.nextint();
+//        int b = sc.nextint();
 //       System.out.println(a);
 //         System.out.println(b);
 //       int sum = a+ b;
@@ -27,9 +27,9 @@
 //     public static void main(String[] args) {
 //     Scanner sc = new Scanner (System.in);
 //     System.out.println("a is:");
-//         int a = sc.nextInt();
+//         int a = sc.nextint();
 //     System.out.println("b is:");
-//     int b = sc.nextInt();
+//     int b = sc.nextint();
     
 //         if (a==b){
 //             System.out.println("nos are equal");
@@ -50,7 +50,7 @@
 //     public static void main(String[] args) {
 //     Scanner sc = new Scanner (System.in);
 //     System.out.println("a is:");
-//     int a = sc.nextInt();
+//     int a = sc.nextint();
     
 //     if (a==1) {
 //         System.out.println("Namaste");
@@ -85,7 +85,7 @@
 //     System.out.println("b:");
 //     float b = sc.nextFloat();
 //     System.out.println("L is");
-//     int L = sc.nextInt();
+//     int L = sc.nextint();
 //     float subtraction = a-b;
 //     float division = a/b;
 //     float modulo= a%b;
@@ -129,7 +129,7 @@
     //     public static void main(String[] args) {
     //         Scanner sc = new Scanner (System.in);
     //         System.out.println("n is:");
-    //         int n = sc.nextInt();
+    //         int n = sc.nextint();
         //     int i = 1;
         //     int j=0;
         //     for (i=1;i<= n ;i++){
@@ -144,7 +144,7 @@
     //     public static void main(String[] args) {
     //         Scanner sc = new Scanner (System.in);
     //         System.out.println("n is:");
-    //         int n = sc.nextInt();
+    //         int n = sc.nextint();
     //         for (int i=1; i<=10;i++){
     //             System.out.println(n+"*"+i+"="+n*i);
 
@@ -163,7 +163,7 @@
 //             String a = "*";
 //             // String b = " ";
 //             System.out.println("n is:");
-//             int n = sc.nextInt();
+//             int n = sc.nextint();
 //             // System.out.println(a.repeat(n));
 //             for (int i=1; i<=n ; i++){
 //                 for (int j=1; j <=n; j++){
@@ -184,7 +184,7 @@
 //             Scanner sc = new Scanner (System.in);
 //             String a = "*";
 //             System.out.println("n is:");
-//             int n = sc.nextInt();
+//             int n = sc.nextint();
 //             for(int i=1; i<=n; i++){
 //                 for(int j=1; j<=n; j++){
 //                     if (j==1||j==n||i==1||i==n){
@@ -207,7 +207,7 @@
 //             Scanner sc = new Scanner (System.in);
 //             String a = "*";
 //             System.out.println("n is:");
-//             int n = sc.nextInt();
+//             int n = sc.nextint();
 //             for(int i= 1; i<=n; i++){
 //                 for(int j=n-i+1; j>=1; j--){
 //                 System.out.print(a);
@@ -226,7 +226,7 @@
     //         Scanner sc = new Scanner (System.in);
     //         String a = "*";
     //         System.out.println("n is:");
-    //         int n = sc.nextInt();
+    //         int n = sc.nextint();
             // for(int i= 1; i<=n; i++){
             //     for(int j=n-i; j>=1; j--){
             //         for(int k=n-j; k>=1; k--){
@@ -249,7 +249,7 @@
             //         Scanner sc = new Scanner (System.in);
             //         String a = "*";
             //         System.out.println("n is:");
-            //         int n = sc.nextInt();
+            //         int n = sc.nextint();
             //         // int number=1;
             //         for (int i=1; i<=n;i++){
             //             for(int j=1;j<=i;j++){
@@ -277,7 +277,7 @@
                 //         Scanner sc = new Scanner (System.in);
                 //         String a = "* ";
                 //         System.out.println("n is:");
-                //         int n = sc.nextInt();
+                //         int n = sc.nextint();
                 //         for (int i=1; i<=n;i++){
                 //             for(int j=1;j<=i;j++){
                 //                 System.out.print(a);}
@@ -298,7 +298,7 @@
                 //             Scanner sc = new Scanner (System.in);
                 //             String a = "* ";
                 //             System.out.println("n is:");
-                //             int n = sc.nextInt();
+                //             int n = sc.nextint();
                 //             for (int i=1; i<=n;i++){
                 //                 for(int j=1;j<=i;j++){
                 //                     System.out.print(a);}
@@ -327,7 +327,7 @@
                 //         Scanner sc = new Scanner (System.in);
                 //         String a = "* ";
                 //         System.out.println("n is:");
-                //         int n = sc.nextInt();
+                //         int n = sc.nextint();
                 //         for (int i=1; i<=n;i++){
                 //             for (int j=n-i+1;j>=1;j--){
                 //                 System.out.println(" ");
@@ -346,7 +346,7 @@
                     //         Scanner sc = new Scanner (System.in);
                     //         String a = "* ";
                     //         System.out.println("n is:");
-                    //         int n = sc.nextInt();
+                    //         int n = sc.nextint();
                     //         // int num = 0;
                     //         for (int i=1; i<=n;i++){
                     //             for (int j=n-i;j>=1;j--){
@@ -369,7 +369,7 @@
                     //         Scanner sc = new Scanner (System.in);
                     //         String a = "* ";
                     //         System.out.println("n is:");
-                    //         int n = sc.nextInt();
+                    //         int n = sc.nextint();
                     //         int num = 0;
                     //         for (int i=1; i<=n;i++){
                     //             for (int j=n-i;j>=1;j--){
@@ -391,7 +391,7 @@
                     //         Scanner sc = new Scanner (System.in);
                     //         String a = "*";
                     //         System.out.println("n is:");
-                    //         int n = sc.nextInt();
+                    //         int n = sc.nextint();
                     //         int num = 0;
                     //         for (int i=1; i<=n;i++){
                     //             for (int j=n-i+1;j>=1;j--){
@@ -419,7 +419,7 @@
                 //             Scanner sc = new Scanner (System.in);
                 //             String a = "*";
                 //             System.out.println("n is:");
-                //             int n = sc.nextInt();
+                //             int n = sc.nextint();
                 //             int num = 0;
                 //             for (int i=1; i<=n;i++){
                 //                 for (int j=1;j<=i-1;j++){
@@ -439,7 +439,7 @@
                 //         Scanner sc = new Scanner (System.in);
                 //         String a = "*";
                 //         System.out.println("n is:");
-                //         int n = sc.nextInt();
+                //         int n = sc.nextint();
                 //         int num = 0;
                 //         for (int i=1; i<=n;i++){
                 //             for(int j=1;j<=i-1;j++){
@@ -457,7 +457,7 @@
                 //         Scanner sc = new Scanner (System.in);
                 //         String a = "*";
                 //         System.out.println("n is:");
-                //         int n = sc.nextInt();
+                //         int n = sc.nextint();
                 //         int num = 0;
                 //         for (int i=1; i<=n;i++){
                 //             for(int j=1;j<=i-1;j++){
@@ -483,7 +483,7 @@
                 //         Scanner sc = new Scanner (System.in);
                 //         String a = "*";
                 //         System.out.println("n is:");
-                //         int n = sc.nextInt();
+                //         int n = sc.nextint();
                 //         int num = 0;
                 //         for (int i=1; i<=n;i++){
                 //             for(int j=1;j<=i-1;j++){
@@ -505,8 +505,8 @@
                 //     }
                 //     public static void main(String[] args) {
                 //         Scanner sc= new Scanner(System.in);
-                //         int a = sc.nextInt();
-                //         int b = sc.nextInt();
+                //         int a = sc.nextint();
+                //         int b = sc.nextint();
                 //         // String name = sc.nextLine();
                 //         // printMyName(name);
                 //         int sum=calculateSum(a, b);
@@ -524,8 +524,8 @@
                 //     }
                 //     public static void main(String[] args) {
                 //         Scanner sc= new Scanner(System.in);
-                //         int a = sc.nextInt();
-                //         int b = sc.nextInt();
+                //         int a = sc.nextint();
+                //         int b = sc.nextint();
                 //         // String name = sc.nextLine();
                 //         // printMyName(name);
                 //         int Product=calculateProduct(a, b);
@@ -552,7 +552,7 @@
                 //             public static void main(String[] args) {
                 // System.out.println("n is:");
                 // Scanner sc= new Scanner(System.in);
-                //   int n = sc.nextInt();
+                //   int n = sc.nextint();
                 //         int j=1;
                 //         for(int i=n;i>=1;i--){
                 //         j++=i;
@@ -573,8 +573,8 @@
                 //     }
                 //     public static void main(String[] args) {
                 //         Scanner sc= new Scanner(System.in);
-                //         int a = sc.nextInt();
-                //         int b = sc.nextInt();
+                //         int a = sc.nextint();
+                //         int b = sc.nextint();
                 //         // String name = sc.nextLine();
                 //         // printMyName(name);
                 //         int Product=calculateProduct(a, b);
@@ -593,9 +593,9 @@
                 //     }
                 //     public static void main(String[] args){
                 //         Scanner sc = new Scanner(System.in);
-                //         int a = sc.nextInt();
-                //         int b = sc.nextInt();
-                //         int c = sc.nextInt();
+                //         int a = sc.nextint();
+                //         int b = sc.nextint();
+                //         int c = sc.nextint();
                 //         float average=average(a, b, c);
                 //         System.out.println(average);
                 //     } 
@@ -616,7 +616,7 @@
 
                 //     public static void main(String[] args){
                 //         Scanner sc = new Scanner(System.in);
-                //         int n = sc.nextInt();
+                //         int n = sc.nextint();
                 //         int sum= sum(n);
                 //         System.out.println(sum);
                 //     }
@@ -640,8 +640,8 @@
             //         }
             //         public static void main (String[] args){
             //             Scanner sc = new Scanner (System.in);
-            //             int a = sc.nextInt();
-            //             int b = sc.nextInt();
+            //             int a = sc.nextint();
+            //             int b = sc.nextint();
             //             int greater=greater(a, b);
             //             System.out.println(greater);
             //         }
@@ -660,7 +660,7 @@
             //         }
             //         public static void main(String[] args){
             //             Scanner sc = new Scanner (System.in);
-            //             int radius = sc.nextInt();
+            //             int radius = sc.nextint();
             //             float circumference=circumference(radius);
             //             System.out.println(circumference);
             //         }
@@ -683,7 +683,7 @@
                 //         }                
                 //         public static void main(String[] args){
                 //             Scanner sc = new Scanner (System.in);
-                //             int age = sc.nextInt();
+                //             int age = sc.nextint();
                 //             String eligible = eligible(age);
                 //             System.out.println(eligible);
                 //         }
@@ -705,8 +705,8 @@
                 //         }
                 //         public static void main(String[] args){
                 //             Scanner sc = new Scanner(System.in);
-                //             int x = sc.nextInt();
-                //             int n = sc.nextInt();
+                //             int x = sc.nextint();
+                //             int n = sc.nextint();
                 //             int value = value(x, n);
                 //             System.out.println(value);
                 //         }
@@ -730,8 +730,8 @@
                 //     return gcd;}
                 //     public static void main(String[] args){
                 //         Scanner sc = new Scanner(System.in);
-                //         int a = sc.nextInt();
-                //         int b = sc.nextInt();
+                //         int a = sc.nextint();
+                //         int b = sc.nextint();
                 //         int gcd = gcd(a, b);
                 //         System.out.println(gcd);
 
@@ -743,17 +743,53 @@
                 // import java.util.*;
 
 
-                // public class Main{
-                // public static void main(String args[]) {
-                //     int positive = 0, negative = 0, zeros = 0;
-                //     System.out.println("Press 1 to continue & 0 to stop");
-                //     Scanner sc = new Scanner(System.in);
-                //     int input = sc.nextInt();
+    //           
+    
+                
+                // import java.util.Scanner;
+
+                // public class Main {
+                //     public static void main(String[] args) {
+                //         Scanner sc = new Scanner(System.in);
+                //         int n = sc.nextInt();  // Use integer for whole numbers
+                //         int dup = n;           // Duplicate of n for digit count
+                //         int dup_1 = n;         // Duplicate of n for Armstrong check
+                //         int count = 0;         // Count of digits
+                //         int sum = 0;           // Sum of powered digits
+                
+                //         // Count the number of digits
+                //         while (dup > 0) {
+                //             count++;
+                //             dup /= 10;
+                //         }
+                
+                //         // Calculate the sum of the digits raised to the power of count
+                //         while (dup_1 > 0) {
+                //             int ld = dup_1 % 10; // Last digit
+                //             sum += Math.pow(ld, count);
+                //             dup_1 /= 10;         // Remove the last digit
+                //         }
+                
+                //         // Check if the number is an Armstrong number
+                //         if (sum == n) {
+                //             System.out.println("The number is an Armstrong number.");
+                //         } else {
+                //             System.out.println("The number is not an Armstrong number.");
+                //         }
+                
+                //         sc.close();  // Close the scanner to prevent resource leaks
+                //     }
+                // }
+
+
+                              
+                                                       
+                                
 
 
                 //     while(input == 1) {
                 //         System.out.println("Enter your number : ");
-                //         int number = sc.nextInt();
+                //         int number = sc.nextint();
                 //         if(number > 0) {
                 //             positive++;
                 //         } else if(number < 0) {
@@ -764,7 +800,7 @@
 
 
                 //         System.out.println("Press 1 to continue & 0 to stop");
-                //         input = sc.nextInt();
+                //         input = sc.nextint();
                 //     }
 
 
@@ -786,7 +822,7 @@
     //         }
     //     public static void main(String args[]){
     //         Scanner sc = new Scanner(System.in);
-    //         int n = sc.nextInt();
+    //         int n = sc.nextint();
     //         int factorial = factorial(n);
     //         System.out.println(factorial);
     //     }

@@ -135,42 +135,42 @@
     //         }
     //     }
 
-        import java.util.*;
-        public class Array{
-            static boolean isAscending(int[] numbers, int size){
-                boolean isAsc = true;
-                for(int i=0; i<size-1;i++){
-                    if(numbers[i+1]<numbers[i]){
-                        isAsc = false;
-                        break;
-                    }
-                }
+        // import java.util.*;
+        // public class Array{
+        //     static boolean isAscending(int[] numbers, int size){
+        //         boolean isAsc = true;
+        //         for(int i=0; i<size-1;i++){
+        //             if(numbers[i+1]<numbers[i]){
+        //                 isAsc = false;
+        //                 break;
+        //             }
+        //         }
 
-                return isAsc;
-            }
+        //         return isAsc;
+        //     }
 
-                public static int[] createArray(int size){
-                    Scanner sc = new Scanner (System.in);
-                    int numbers[]= new int[size];
-                    for(int i=0; i<size; i++){
-                        numbers[i] = sc.nextInt();
-                    }
-                    return numbers;
-                }
+        //         public static int[] createArray(int size){
+        //             Scanner sc = new Scanner (System.in);
+        //             int numbers[]= new int[size];
+        //             for(int i=0; i<size; i++){
+        //                 numbers[i] = sc.nextInt();
+        //             }
+        //             return numbers;
+        //         }
 
-                public static void main(String[] args){
-                    System.out.println("Enter the size of array:");
-                    Scanner sc = new Scanner (System.in);
-                    int size = sc.nextInt();
+        //         public static void main(String[] args){
+        //             System.out.println("Enter the size of array:");
+        //             Scanner sc = new Scanner (System.in);
+        //             int size = sc.nextInt();
 
-                    // Call function to create array
-                    int[] numbers = createArray(size);
+        //             // Call function to create array
+        //             int[] numbers = createArray(size);
 
-                    // Array is created - Now call the function to check if the array is in ascending order
-                    boolean isAscending = isAscending(numbers, size);
-                    System.out.println("The array is in ascending order: " + isAscending);
-                }
-            }
+        //             // Array is created - Now call the function to check if the array is in ascending order
+        //             boolean isAscending = isAscending(numbers, size);
+        //             System.out.println("The array is in ascending order: " + isAscending);
+        //         }
+        //     }
 
 
 
