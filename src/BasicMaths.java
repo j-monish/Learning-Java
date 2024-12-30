@@ -83,22 +83,20 @@ public class BasicMaths {
             count = count + 1;}
         }
     int[] divisors = new int[count];
-    int j =-1;
+    int j =0;
     for(int i=1;i<=n;i++){
         if(n%(i) == 0){
-            j=j+1;
             // for(j =0; j< count; j++){
         divisors[j] =i;
-        
-        
+        j=j+1;
         }
-
     }
 for(int i=0;i<count;i++){
 System.out.println(divisors[i]);
     }
 }
 }
+
 
     
 
