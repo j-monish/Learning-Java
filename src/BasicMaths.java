@@ -82,20 +82,32 @@ public class BasicMaths {
         if(n%i==0){
             count = count + 1;}
         }
-    int[] divisors = new int[count];
-    int j =0;
-    for(int i=1;i<=n;i++){
-        if(n%(i) == 0){
-            // for(j =0; j< count; j++){
-        divisors[j] =i;
-        j=j+1;
+//     int[] divisors = new int[count];
+//     int j =0;
+//     for(int i=1;i<=n;i++){
+//         if(n%(i) == 0){
+//             // for(j =0; j< count; j++){
+//         divisors[j] =i;
+//         j=j+1;
+//         }
+//     }
+// for(int i=0;i<count;i++){
+// System.out.println(divisors[i]);
+//     }
+// }
+// }
+            if(count > 2){
+                System.out.println("no is not prime");
+            }
+            else if(count == 1){
+                System.out.println("no is 1");
+            }
+            else{
+                System.out.println("no is prime");
+            }
         }
     }
-for(int i=0;i<count;i++){
-System.out.println(divisors[i]);
-    }
-}
-}
+
 
 
     
