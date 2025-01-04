@@ -2,6 +2,7 @@
 //    String name;
 //     int roll_no;
     
+// Methods of class (Functions inside the class are known as methods)
 //     static void printing(){
 //         System.out.println("This function works");
 //     }
@@ -13,7 +14,7 @@
 // }
 // public class OOPS{
 //     public static void main(String[] args){
-//     Student student1 = new Student();
+//     Student student1 = new Student(); // Creating object of the class
 //     student1.name="Mohit";
 //     student1.roll_no = 20;
 //     Student student2 = new Student();
